@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+b0aw7e3YAW4H14Oun1Adn0qebXY+PvpCIFaxvjM4O1Wrot2uVAVLt3dMIcJuBHgrDfp1ZyXMA2PaEoz9g76pQ==",
+  "success": true,
+  "projectFilePath": "D:\\Repositories\\BlankBashIzdat\\basblankizdat-app\\basblankizdat-app\\basblankizdat-app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diyaz\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}
