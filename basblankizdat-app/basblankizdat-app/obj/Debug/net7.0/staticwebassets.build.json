@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YjkgbCChLiI+qTRWveq2SRzNp7HEOX+0MrKEojNsDIs=",
+  "Hash": "fpJ9r6VDoMVcR0oABcmfqXQ6ywkfSiqaRLyJjEgNrzM=",
   "Source": "basblankizdat-app",
   "BasePath": "_content/basblankizdat-app",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Repositories\\BlankBashIzdat\\basblankizdat-app\\basblankizdat-app\\wwwroot\\БАШБЛАНКИЗДАТ.png",
+      "SourceId": "basblankizdat-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repositories\\BlankBashIzdat\\basblankizdat-app\\basblankizdat-app\\wwwroot\\",
+      "BasePath": "_content/basblankizdat-app",
+      "RelativePath": "БАШБЛАНКИЗДАТ.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\БАШБЛАНКИЗДАТ.png"
     }
   ]
 }
