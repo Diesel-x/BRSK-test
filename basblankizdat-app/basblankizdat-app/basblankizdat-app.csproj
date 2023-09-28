@@ -14,7 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="wwwroot\images\Новая папка\" />
+=======
+    <Folder Include="wwwroot\lib\images\" />
+>>>>>>> 6b710a2459ce0ee56df6a80e900c3dd555958eb7
   </ItemGroup>
 
 </Project>
