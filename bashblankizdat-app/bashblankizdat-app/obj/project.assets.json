@@ -1,33 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Material.Icons/2.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Material.Icons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Material.Icons.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Material.Icons/2.0.11": {
+      "sha512": "VjKttty0Bz4xceqXmbBTCh9mV5DAnuuhweV1yQzFKVPBKoW79ZsxBTACbb5LzdqVe1CwhCN5xm3805ZXEqPH1w==",
+      "type": "package",
+      "path": "material.icons/2.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Material.Icons.dll",
+        "material.icons.2.0.11.nupkg.sha512",
+        "material.icons.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Material.Icons >= 2.0.11"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\diyaz\\.nuget\\packages\\": {}
+    "C:\\Users\\Дияз\\.nuget\\packages\\": {},
+    "D:\\Programs\\VS_Components\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositories\\BashBlankIzdat\\bashblankizdat-app\\bashblankizdat-app\\bashblankizdat-app.csproj",
+      "projectUniqueName": "D:\\Projects\\BashBlankIzdat\\bashblankizdat-app\\bashblankizdat-app\\bashblankizdat-app.csproj",
       "projectName": "bashblankizdat-app",
-      "projectPath": "D:\\Repositories\\BashBlankIzdat\\bashblankizdat-app\\bashblankizdat-app\\bashblankizdat-app.csproj",
-      "packagesPath": "C:\\Users\\diyaz\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositories\\BashBlankIzdat\\bashblankizdat-app\\bashblankizdat-app\\obj\\",
+      "projectPath": "D:\\Projects\\BashBlankIzdat\\bashblankizdat-app\\bashblankizdat-app\\bashblankizdat-app.csproj",
+      "packagesPath": "C:\\Users\\Дияз\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\BashBlankIzdat\\bashblankizdat-app\\bashblankizdat-app\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Programs\\VS_Components\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\diyaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Дияз\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,6 +76,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Material.Icons": {
+            "target": "Package",
+            "version": "[2.0.11, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -64,7 +101,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

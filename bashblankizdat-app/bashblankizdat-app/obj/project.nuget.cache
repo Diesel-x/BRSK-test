@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2WimvEa24hYKEBwaPl/pJ/Fuuibvc8N1NIDY3Z0HBLtwtasJi2r9xBXM98WXG/NLxmH8MCULWhd0DksxJDdOzA==",
+  "dgSpecHash": "mLmVOlgZ/XBSPYSVKbYUi4S1HiH8OaXRNL5U1llmWVRml5vXMqnjHSkXlxi+FPvZBR5O+bcqCkfG4onnv8eRXw==",
   "success": true,
-  "projectFilePath": "D:\\Repositories\\BashBlankIzdat\\bashblankizdat-app\\bashblankizdat-app\\bashblankizdat-app.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Projects\\BashBlankIzdat\\bashblankizdat-app\\bashblankizdat-app\\bashblankizdat-app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Дияз\\.nuget\\packages\\material.icons\\2.0.11\\material.icons.2.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
