@@ -1,11 +1,37 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Material.Icons/2.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Material.Icons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Material.Icons.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Material.Icons/2.0.11": {
+      "sha512": "VjKttty0Bz4xceqXmbBTCh9mV5DAnuuhweV1yQzFKVPBKoW79ZsxBTACbb5LzdqVe1CwhCN5xm3805ZXEqPH1w==",
+      "type": "package",
+      "path": "material.icons/2.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Material.Icons.dll",
+        "material.icons.2.0.11.nupkg.sha512",
+        "material.icons.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Material.Icons >= 2.0.11"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\diyaz\\.nuget\\packages\\": {}
@@ -45,6 +71,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Material.Icons": {
+            "target": "Package",
+            "version": "[2.0.11, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
