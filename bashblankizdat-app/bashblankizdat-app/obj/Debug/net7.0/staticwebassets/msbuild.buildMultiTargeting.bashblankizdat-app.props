@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\bashblankizdat-app.props" />
-</Project>
