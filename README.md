@@ -1,3 +1,1 @@
-# BashBlankIzdat
-
-Website of the company BashBalnkIzdat LLC
+# Примерный тест в БРСК
